@@ -1,12 +1,14 @@
-
-import Main from './components/Main'
-
-
+import {Routes,Route} from 'react-router-dom';
+import Main from './components/Main';
+import About from "./components/About";
 function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <Routes>
+       <Route path="/" element={ <Main />}></Route>
+       <Route path="about" element={<About />}></Route>
+    </Routes>
+     
+    
   );
 }
 
