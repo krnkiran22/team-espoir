@@ -11,7 +11,7 @@ function Main(){
  
    const [time, settime] = useState(now);
 
-   const navigate = useNavigate()
+   const navigate = useNavigate();
    
    function updateTime() {
      const newTime = new Date().toLocaleTimeString();
@@ -38,7 +38,7 @@ function Main(){
                 <h1 className='text-5xl'> <span className='text-yellow-500'>Welcome </span>to our website</h1>
                 <h2 className='text-3xl '>Team Espoir</h2>
                 
-               <button onClick={()=>navigate('about')} type="button" class="transition ease-in-out delay-150 hover:scale-110  duration-300 ...  text-white bg-red-700 hover:bg-red-800 px-4 py-1 font-semibold rounded-lg dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Unleash</button>
+               <button onClick={()=>navigate('/home')} type="button" class="transition ease-in-out delay-150 hover:scale-110  duration-300 ...  text-white bg-red-700 hover:bg-red-800 px-4 py-1 font-semibold rounded-lg dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Unleash</button>
             </div>
         </div> 
           
