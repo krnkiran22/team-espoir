@@ -57,3 +57,43 @@ video{
   pointer-events:none;
   transition: .1s;
 }
+#down{
+   
+    background-color: rgb(85, 243, 6);
+    height: 250px;
+    width: 1550px;
+
+}
+#svg1{
+    height: 50px;
+    width: 50px;
+    margin-left: 200px;
+    margin-top: 20px;
+ 
+}
+#svg2{
+    height: 50px;
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+#svg3{
+    height: 42px;
+    width: 42px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+#footerlocation{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#footernumber{
+    margin-left: 210px;
+    margin-top: 20px;
+}
+#footermail{
+    margin-left: 220px;
+    margin-top: 20px;
+}
