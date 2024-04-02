@@ -34,25 +34,5 @@ function Navigationbar(){
 
 export default Navigationbar;
 
-/*import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 
-function Navigationbar() {
-  return (
-    <>
-      <Navbar bg="dark" data-bs-theme="light">
-        <Container>
-          <Navbar.Brand href="#home" className='text-white '>Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link  href="#home" className='text-white'>Home</Nav.Link>
-            <Nav.Link href="#features" className='text-white'>Features</Nav.Link>
-            <Nav.Link href="#pricing" className='text-white'>Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
-  );
-}
 
-export default Navigationbar;*/
