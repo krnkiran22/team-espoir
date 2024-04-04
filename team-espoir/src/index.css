@@ -97,10 +97,10 @@ header nav a {
     color: white;
 }
 header nav a.active {
-    background: #5247B9;
+    background:  #070736;
 }
 header nav a:hover {
-    background: #5247B9;
+    background: #070736;
 }
 header nav:hover > a:not(:hover) {
     background: none;
